@@ -1,66 +1,129 @@
+
 <div align="center">
 
 # Nishanth M.
 
-### Electronics & Communication Engineering | Digital Design | VLSI | FPGA
+### Electronics & Communication Engineering | IIIT Kottayam
 
-Building digital systems, exploring computer architecture, and learning the RTL-to-GDSII flow.
+**Digital Design • VLSI • FPGA • Computer Architecture**
 
-[Portfolio Website](https://YOUR_USERNAME.github.io) · [GitHub](https://github.com/YOUR_USERNAME) · [LinkedIn](https://www.linkedin.com/in/YOUR_LINKEDIN/)
+Building digital systems, exploring hardware architecture, and learning how software becomes silicon.
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-8B9CFF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://error-nish.github.io)
+[![GitHub](https://img.shields.io/badge/GitHub-error--nish-181717?style=for-the-badge&logo=github)](https://github.com/error-nish)
 
 </div>
 
 ---
 
-## About
+## About Me
 
-I'm an ECE undergraduate at **IIIT Kottayam** interested in digital hardware design, computer architecture, FPGA development, and VLSI implementation.
+- 🎓 ECE Undergraduate at IIIT Kottayam (2024–2028)
+- 💻 Interested in Digital Design, VLSI and Computer Architecture
+- ⚡ Building a 32-bit RV32I RISC-V processor from scratch
+- 🔬 Exploring FPGA development and High-Level Synthesis
+- 🛠️ Learning the complete RTL-to-GDSII implementation flow
 
-I enjoy building systems from the ground up — from RTL modules and processor datapaths to hardware acceleration and complete implementation flows.
+---
 
-- Currently building: **RV32I RISC-V CPU**
-- Exploring: **Vitis HLS, FPGA design, ASIC implementation**
-- Interested in: **RTL design, computer architecture, digital IC design**
+## Technical Skills
 
-## Technology Stack
+### Programming Languages
 
-### Hardware Design
-![Verilog](https://img.shields.io/badge/Verilog-181717?style=for-the-badge&logo=verilog&logoColor=white)
-![FPGA](https://img.shields.io/badge/FPGA-2563EB?style=for-the-badge)
-![RISC-V](https://img.shields.io/badge/RISC--V-283272?style=for-the-badge)
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=c,cpp,py,matlab&theme=dark" />
+  </a>
+</p>
 
-### EDA & Implementation
-![Vivado](https://img.shields.io/badge/Vivado-E01F27?style=for-the-badge)
-![Vitis HLS](https://img.shields.io/badge/Vitis_HLS-FFB000?style=for-the-badge)
-![Yosys](https://img.shields.io/badge/Yosys-374151?style=for-the-badge)
-![OpenLane](https://img.shields.io/badge/OpenLane-0F766E?style=for-the-badge)
-![OpenROAD](https://img.shields.io/badge/OpenROAD-334155?style=for-the-badge)
-![KLayout](https://img.shields.io/badge/KLayout-475569?style=for-the-badge)
+### Development Environment
 
-### Programming & Environment
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=linux,git,github,vscode,docker,html,css,js,cloudflare&theme=dark&perline=6" />
+  </a>
+</p>
+
+### Hardware Design & EDA Tools
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Verilog-RTL_Design-6A5ACD?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AMD-Vivado-E01F27?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Vitis-HLS-FFB000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Yosys-Synthesis-374151?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/OpenLane-ASIC_Flow-0F766E?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/OpenROAD-Physical_Design-334155?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/SKY130-PDK-2563EB?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/KLayout-EDA-475569?style=for-the-badge" />
+</p>
+
+---
 
 ## Featured Projects
 
-| Project | Description | Technologies |
-|---|---|---|
-| **RV32I Single-Cycle CPU** | 32-bit RISC-V processor built from modular RTL blocks. | Verilog, RTL, simulation |
-| **HQC Encoder Accelerator** | Hardware-oriented implementation and optimization using high-level synthesis. | C/C++, Vitis HLS |
-| **SlopOut** | AI-assisted YouTube content review using visual and transcript signals. | Python, Hugging Face, Chrome Extension |
+### 01. 32-bit RISC-V CPU
 
-> Replace the project names above with links to your actual repositories once they are public.
+**Single-Cycle RV32I Processor**
+
+Designing a 32-bit RISC-V processor from scratch using modular Verilog RTL.
+
+- Instruction Fetch and Program Counter
+- Control Unit and Instruction Decoder
+- Register File and Immediate Generator
+- ALU and Branch Unit
+- Instruction and Data Memory
+- Simulation and debugging
+
+`Verilog` `RV32I` `Vivado` `Icarus Verilog`
+
+### 02. HQC Encoder Accelerator
+
+**Hardware Acceleration using Vitis HLS**
+
+Working on an HQC encoder implementation and exploring hardware-oriented optimization.
+
+- C-based encoder implementation
+- Vitis HLS workflow
+- C simulation and synthesis exploration
+- Hardware optimization
+
+`C` `Vitis HLS` `FPGA`
+
+### 03. SlopOut
+
+**AI-Assisted YouTube Content Review**
+
+Building a Chrome extension that uses independent visual and transcript analysis to identify potentially AI-generated content.
+
+- Pretrained image detection model
+- Transcript analysis pipeline
+- FastAPI backend
+- Chrome extension review mode
+- Cloudflare Worker integration
+
+`Python` `Hugging Face` `FastAPI` `JavaScript` `Cloudflare`
+
+---
+
+## Currently Exploring
+
+- Advanced RTL Design
+- Pipelined RISC-V Architecture
+- FPGA Hardware Acceleration
+- ASIC Synthesis and Physical Design
+- RTL-to-GDSII using SKY130 and OpenLane
+
+---
 
 ## GitHub Statistics
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true)
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=error-nish&show_icons=true&theme=tokyonight&hide_border=true" />
 
-![GitHub Streak](https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true)
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=error-nish&layout=compact&theme=tokyonight&hide_border=true" />
+
+<img src="https://streak-stats.demolab.com?user=error-nish&theme=tokyonight&hide_border=true" />
 
 </div>
 
@@ -68,6 +131,10 @@ I enjoy building systems from the ground up — from RTL modules and processor d
 
 <div align="center">
 
-**Designing · Implementing · Learning**
+### BUILDING • LEARNING • EXPLORING
+
+*Turning ideas into working hardware.*
+
+🌐 [Portfolio](https://error-nish.github.io) · 💻 [GitHub](https://github.com/error-nish)
 
 </div>
